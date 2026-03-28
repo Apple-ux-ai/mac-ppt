@@ -21,6 +21,7 @@
     "build": "vue-tsc -b && vite build && electron-builder",
     "build:linux": "vue-tsc -b && vite build && electron-builder --linux AppImage deb",
     "build:dir": "vue-tsc -b && vite build && electron-builder --dir",
+    "build:mac:zip": "vue-tsc -b && vite build && electron-builder --config electron-builder.mac.yml --mac zip --publish never --arm64 --x64",
     "preview": "vite preview",
     "test": "vitest",
     "test:ui": "vitest --ui",

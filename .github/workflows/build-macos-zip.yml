@@ -1,5 +1,5 @@
-# 在无本地 Mac 时：在 GitHub 的 macOS _runner 上打包，完成后从 Actions 页下载 Artifact。
-# 使用说明：推送本仓库后，打开 GitHub → Actions →「Build macOS zip」→ Run workflow。
+# 在无本地 Mac 时：在 GitHub 的 macOS runner 上分别打 arm64（Apple Silicon）与 x64（Intel）zip。
+# 完成后在 Actions 里可下载两个 Artifact：macos-zip-arm64、macos-zip-x64。
 
 name: Build macOS zip
 
@@ -13,8 +13,13 @@ on:
 
 jobs:
   mac-zip:
+    name: mac zip (${{ matrix.arch }})
     runs-on: macos-latest
     timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        arch: [arm64, x64]
     defaults:
       run:
         working-directory: ppt-batch-processor-mac-source
@@ -36,13 +41,13 @@ jobs:
       - name: Typecheck and Vite build
         run: npx vue-tsc -b && npx vite build
 
-      - name: electron-builder (mac zip)
-        # --publish never：仅打 zip，不写 GitHub Release（避免 CI 下解析发布配置失败）
-        run: npx electron-builder --config electron-builder.mac.yml --mac zip --publish never
+      # 显式指定架构，避免在 Apple Silicon runner 上只产出单一架构
+      - name: electron-builder (mac zip ${{ matrix.arch }})
+        run: npx electron-builder --config electron-builder.mac.yml --mac zip --publish never --${{ matrix.arch }}
 
-      - name: Upload release-mac artifacts
+      - name: Upload zip (${{ matrix.arch }})
         uses: actions/upload-artifact@v4
         with:
-          name: macos-zip-${{ github.sha }}
+          name: macos-zip-${{ matrix.arch }}
           path: ppt-batch-processor-mac-source/release-mac/*.zip
           if-no-files-found: error
