@@ -1,6 +1,8 @@
 appId: com.pptbatchprocessor.10036
 productName: PPT批量处理工具箱
 copyright: Copyright © 2024
+# CI 子目录打包时无 .git，且本流程只产出 Artifact、不发布 Release
+publish: null
 directories:
   output: release-mac
 files:

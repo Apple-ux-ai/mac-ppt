@@ -37,9 +37,8 @@ jobs:
         run: npx vue-tsc -b && npx vite build
 
       - name: electron-builder (mac zip)
-        run: npx electron-builder --config electron-builder.mac.yml --mac zip
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # --publish never：仅打 zip，不写 GitHub Release（避免 CI 下解析发布配置失败）
+        run: npx electron-builder --config electron-builder.mac.yml --mac zip --publish never
 
       - name: Upload release-mac artifacts
         uses: actions/upload-artifact@v4
