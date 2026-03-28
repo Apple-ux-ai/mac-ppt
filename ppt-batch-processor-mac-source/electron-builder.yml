@@ -1,0 +1,60 @@
+appId: com.pptbatchprocessor.10036
+productName: PPT批量处理工具箱
+copyright: Copyright © 2024
+directories:
+  output: release
+  buildResources: build
+files:
+  - dist/**/*
+  - dist-electron/**/*
+  - node_modules/**/*
+  - package.json
+  - '!**/.vscode/*'
+  - '!src/*'
+  - '!electron.vite.config.{js,ts,mjs,cjs}'
+  - '!{.eslintignore,.eslintrc.cjs,.prettierignore,.prettierrc.yaml,dev-app-update.yml,CHANGELOG.md,README.md}'
+  - '!{.env,.env.*,.npmrc,pnpm-lock.yaml}'
+extraResources:
+  - from: resources/LibreOffice
+    to: LibreOffice
+  - from: resources/ImageMagick-7.1.2-Q16-HDRI
+    to: ImageMagick-7.1.2-Q16-HDRI
+  - from: resources/gs10.06.0
+    to: gs10.06.0
+  - from: src/renderer/assets/icon.png
+    to: app-icon.png
+asarUnpack:
+  - resources/**
+win:
+  executableName: PPTBatchProcessor
+  target:
+    - target: nsis
+      arch:
+        - x64
+  icon: release/.icon-ico/icon.ico
+linux:
+  target:
+    - target: AppImage
+      arch:
+        - x64
+    - target: deb
+      arch:
+        - x64
+  category: Utility
+  artifactName: ${productName}-${version}-${arch}.${ext}
+nsis:
+  artifactName: ${productName} ${version}.${ext}
+  shortcutName: ${productName}
+  uninstallDisplayName: ${productName}
+  createDesktopShortcut: always
+  createStartMenuShortcut: true
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  perMachine: false
+  allowElevation: true
+  runAfterFinish: false
+  deleteAppDataOnUninstall: false
+  installerIcon: release/.icon-ico/icon.ico
+  uninstallerIcon: release/.icon-ico/icon.ico
+  differentialPackage: false
+  warningsAsErrors: false

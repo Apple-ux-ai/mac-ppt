@@ -1,0 +1,1289 @@
+{
+  "# PPT模板生成示例 ## 模板文件 在PPT模板中使用 {{字段名}} 作为占位符，例如： - {{姓名}} - {{部门}} - {{日期}} ## 数据源示例 (Excel/CSV) 第一行为列名，后续每行为一条数据： 姓名,部门,日期,金额 张三,销售部,2024-01-01,10000 李四,技术部,2024-01-02,15000 王五,市场部,2024-01-03,12000": [
+    "src\\renderer\\components\\config\\TemplateGenerateConfig.vue:54"
+  ],
+  "$1年$2月$3日": [
+    "src\\renderer\\components\\pages\\TextReplacePage.vue:143"
+  ],
+  "${baseMessage}\\n应用已内置 LibreOffice，如果此错误持续出现，请联系技术支持。": [
+    "src\\main\\services\\format-converter.ts:214"
+  ],
+  "${baseMessage}\\n检测到内置路径: ${bundledPath}\\n请尝试重新安装应用。": [
+    "src\\main\\services\\format-converter.ts:213"
+  ],
+  "${baseMessage}。该文件将被跳过。": [
+    "src\\main\\utils\\error-handler.ts:373",
+    "src\\main\\utils\\error-handler.ts:387"
+  ],
+  "${baseMessage}。请关闭其他应用程序后重试。": [
+    "src\\main\\utils\\error-handler.ts:379"
+  ],
+  "${baseMessage}。请尝试使用其他工具修复文件。": [
+    "src\\main\\utils\\error-handler.ts:370"
+  ],
+  "${baseMessage}。请检查文件访问权限。": [
+    "src\\main\\utils\\error-handler.ts:364"
+  ],
+  "${baseMessage}。请检查文件路径是否正确。": [
+    "src\\main\\utils\\error-handler.ts:360"
+  ],
+  "${baseMessage}。请检查配置参数。": [
+    "src\\main\\utils\\error-handler.ts:384"
+  ],
+  "${baseMessage}。请清理磁盘空间后重试。": [
+    "src\\main\\utils\\error-handler.ts:376"
+  ],
+  "${baseMessage}。请重启应用程序。": [
+    "src\\main\\utils\\error-handler.ts:381"
+  ],
+  "--- 文件分隔 ---": [
+    "src\\renderer\\components\\config\\SplitMergeConfig.vue:103",
+    "src\\renderer\\components\\pages\\MergePptPage.vue:90"
+  ],
+  "2024年01月01日": [
+    "src\\renderer\\components\\config\\TextReplaceConfig.vue:97"
+  ],
+  "=== checkForUpdates 被调用 ===": [
+    "src\\renderer\\components\\TitleBar.vue:234"
+  ],
+  "=== getAdv 被调用 ===": [
+    "src\\renderer\\components\\TitleBar.vue:303"
+  ],
+  "Excel 文件解析失败": [
+    "src\\main\\utils\\error-codes.ts:242"
+  ],
+  "Excel规则模板.csv": [
+    "src\\renderer\\components\\config\\ExcelRulesConfig.vue:82",
+    "src\\renderer\\components\\pages\\ExcelRulesPage.vue:129"
+  ],
+  "Ghostscript 不可用": [
+    "src\\main\\utils\\user-visible-messages.ts:192"
+  ],
+  "Ghostscript 未找到": [
+    "src\\main\\utils\\error-codes.ts:323"
+  ],
+  "HTML 转换": [
+    "src\\main\\services\\format-converter.ts:1022"
+  ],
+  "HTML 转换失败: ${error.message}": [
+    "src\\main\\services\\format-converter.ts:1058"
+  ],
+  "HTML 转换失败: 未生成输出文件": [
+    "src\\main\\utils\\user-visible-messages.ts:204"
+  ],
+  "HTML 转换超时 (超过 ${this.timeout / 1000} 秒)": [
+    "src\\main\\services\\format-converter.ts:1056"
+  ],
+  "HTTP错误: ${response.status}": [
+    "src\\renderer\\components\\HomePage.vue:250",
+    "src\\renderer\\components\\HomePage.vue:288"
+  ],
+  "ImageMagick 未找到": [
+    "src\\main\\utils\\error-codes.ts:314"
+  ],
+  "LibreOffice 意外退出": [
+    "src\\main\\utils\\error-codes.ts:296"
+  ],
+  "LibreOffice 操作超时": [
+    "src\\main\\utils\\error-codes.ts:287"
+  ],
+  "LibreOffice 未安装或不可用。${featureName}需要 LibreOffice。": [
+    "src\\main\\services\\format-converter.ts:212"
+  ],
+  "PDF 转图片多页转换失败，回退到单页导出模式": [
+    "src\\main\\services\\format-converter.ts:629"
+  ],
+  "PDF 转换": [
+    "src\\main\\services\\format-converter.ts:684"
+  ],
+  "PDF 转换失败": [
+    "src\\main\\utils\\user-visible-messages.ts:194"
+  ],
+  "PDF 转换失败: 无法读取生成的文件": [
+    "src\\main\\services\\format-converter.ts:778",
+    "src\\main\\utils\\user-visible-messages.ts:198"
+  ],
+  "PDF 转换失败: 生成的文件不是有效的 PDF 格式": [
+    "src\\main\\services\\format-converter.ts:787",
+    "src\\main\\utils\\user-visible-messages.ts:200"
+  ],
+  "PDF 转换失败: 生成的文件为空": [
+    "src\\main\\utils\\user-visible-messages.ts:196"
+  ],
+  "PDF 转换超时 (超过 ${this.timeout / 1000} 秒)": [
+    "src\\main\\services\\format-converter.ts:824"
+  ],
+  "PPT 文件结构无效": [
+    "src\\main\\utils\\error-codes.ts:170"
+  ],
+  "PPTX 文件不包含任何幻灯片": [
+    "src\\main\\utils\\file-validator.ts:375"
+  ],
+  "PPTX 文件结构损坏": [
+    "src\\main\\utils\\file-validator.ts:358",
+    "src\\main\\utils\\file-validator.ts:384"
+  ],
+  "PPT合并": [
+    "src\\renderer\\components\\TaskConfig.vue:439"
+  ],
+  "PPT合并、PPT拆分、智能去重": [
+    "src\\renderer\\components\\HomePage.vue:202"
+  ],
+  "PPT拆分": [
+    "src\\renderer\\components\\TaskConfig.vue:438"
+  ],
+  "PPT转PDF、导出长图、格式互转": [
+    "src\\renderer\\components\\HomePage.vue:181"
+  ],
+  "[PDF转换] stderr: ${stderr}": [
+    "src\\main\\services\\format-converter.ts:713"
+  ],
+  "[PDF转换] stdout: ${stdout}": [
+    "src\\main\\services\\format-converter.ts:708",
+    "src\\main\\services\\format-converter.ts:733"
+  ],
+  "[PDF转换] 执行命令: ${command}": [
+    "src\\main\\services\\format-converter.ts:699"
+  ],
+  "[PDF转换] 文件前100字节: ${buffer.slice(0, 100).toString('hex')}": [
+    "src\\main\\services\\format-converter.ts:785"
+  ],
+  "[PDF转换] 文件未生成": [
+    "src\\main\\services\\format-converter.ts:733"
+  ],
+  "[PDF转换] 无效的PDF文件头: ${header}": [
+    "src\\main\\services\\format-converter.ts:782"
+  ],
+  "[PDF转换] 期望生成的PDF路径: ${generatedPdfPath}": [
+    "src\\main\\services\\format-converter.ts:721"
+  ],
+  "[PDF转换] 生成的PDF文件大小: ${pdfStats.size} bytes": [
+    "src\\main\\services\\format-converter.ts:755"
+  ],
+  "[PDF转换] 输入文件: ${inputPath}": [
+    "src\\main\\services\\format-converter.ts:699"
+  ],
+  "[PDF转换] 输出目录: ${outputDir}": [
+    "src\\main\\services\\format-converter.ts:701"
+  ],
+  "invoke 返回结果:": [
+    "src\\renderer\\components\\TitleBar.vue:496"
+  ],
+  "{hours}小时{minutes}分{seconds}秒": [
+    "src\\renderer\\store\\app.ts:137",
+    "src\\renderer\\store\\app.ts:139"
+  ],
+  "{minutes}分{seconds}秒": [
+    "src\\renderer\\store\\app.ts:143",
+    "src\\renderer\\store\\app.ts:145"
+  ],
+  "{seconds}秒": [
+    "src\\renderer\\store\\app.ts:148",
+    "src\\renderer\\store\\app.ts:150"
+  ],
+  "{value} 文件/分钟": [
+    "src\\renderer\\components\\ProgressViewEnhanced.vue:208",
+    "src\\renderer\\components\\ProgressViewEnhanced.vue:179"
+  ],
+  "{value} 文件/秒": [
+    "src\\renderer\\components\\ProgressViewEnhanced.vue:211",
+    "src\\renderer\\components\\ProgressViewEnhanced.vue:182"
+  ],
+  "|?*]/ const patternWithoutPlaceholders = pattern .replace(/\\{name\\}/g, '') .replace(/\\{ext\\}/g, '') .replace(/\\{index\\}/g, '') .replace(/\\{total\\}/g, '') .replace(/\\{date\\}/g, '') .replace(/\\{time\\}/g, '') .replace(/\\{timestamp\\}/g, '') if (illegalChars.test(patternWithoutPlaceholders)) { return { valid: false, error: '文件名模式包含非法字符: < > :": [
+    "src\\main\\utils\\output-path-generator.ts:223"
+  ],
+  "⚠️ 使用 Mock Electron API - 这是浏览器预览模式，功能受限": [
+    "src\\renderer\\mock-electron-api.ts:136"
+  ],
+  "⚠️ 多页图片转换组件不可用，只能导出第一页": [
+    "src\\main\\services\\format-converter.ts:629"
+  ],
+  "⚠️ 提示：这可能是 API 限制导致的，登录可能已成功但无法自动同步": [
+    "src\\renderer\\components\\TitleBar.vue:428"
+  ],
+  "✅ Token 已保存到 localStorage": [
+    "src\\renderer\\components\\TitleBar.vue:165"
+  ],
+  "✅ 使用 onLoginSuccess 方法监听事件": [
+    "src\\renderer\\components\\TitleBar.vue:194"
+  ],
+  "✅ 使用真实 Electron API": [
+    "src\\renderer\\mock-electron-api.ts:143"
+  ],
+  "✅ 头像:": [
+    "src\\renderer\\components\\TitleBar.vue:177",
+    "src\\renderer\\components\\TitleBar.vue:379"
+  ],
+  "✅ 已添加 window 级别的事件监听器作为备用": [
+    "src\\renderer\\components\\TitleBar.vue:218"
+  ],
+  "✅ 广告链接已在浏览器中打开": [
+    "src\\renderer\\components\\TitleBar.vue:337"
+  ],
+  "✅ 昵称:": [
+    "src\\renderer\\components\\TitleBar.vue:179"
+  ],
+  "✅ 登录成功，用户信息已显示": [
+    "src\\renderer\\components\\TitleBar.vue:180"
+  ],
+  "✓ 序列化测试通过，数据大小:": [
+    "src\\renderer\\store\\app.ts:280",
+    "src\\renderer\\store\\app.ts:282"
+  ],
+  "❌ window.electronAPI.onLoginSuccess 不存在": [
+    "src\\renderer\\components\\TitleBar.vue:203"
+  ],
+  "❌ 打开广告链接失败:": [
+    "src\\renderer\\components\\TitleBar.vue:340"
+  ],
+  "❌ 获取用户信息异常:": [
+    "src\\renderer\\components\\TitleBar.vue:385"
+  ],
+  "❌ 设置事件监听器失败:": [
+    "src\\renderer\\components\\TitleBar.vue:203"
+  ],
+  "下载功能开发中...": [
+    "src\\renderer\\components\\tools\\FileContentTools.vue:168"
+  ],
+  "不存在": [
+    "src\\main\\utils\\error-handler.ts:359"
+  ],
+  "不支持的文件格式": [
+    "src\\shared\\constants\\index.ts:45"
+  ],
+  "任务不存在": [
+    "src\\main\\utils\\error-codes.ts:359"
+  ],
+  "任务可能已完成或被清除": [
+    "src\\main\\utils\\error-codes.ts:360"
+  ],
+  "任务启动失败": [
+    "src\\renderer\\store\\app.ts:300",
+    "src\\renderer\\store\\app.ts:302"
+  ],
+  "任务已取消": [
+    "src\\main\\utils\\error-codes.ts:332"
+  ],
+  "任务超时": [
+    "src\\main\\utils\\error-codes.ts:341"
+  ],
+  "任务队列已满": [
+    "src\\main\\utils\\error-codes.ts:368"
+  ],
+  "优化压缩": [
+    "src\\renderer\\components\\TaskConfig.vue:514"
+  ],
+  "使用Excel表格定义批量修改规则": [
+    "src\\renderer\\components\\TaskConfig.vue:366"
+  ],
+  "使用模板和数据源批量生成PPT": [
+    "src\\renderer\\components\\TaskConfig.vue:372"
+  ],
+  "使用正则表达式": [
+    "src\\renderer\\components\\config\\TextReplaceConfig.vue:72"
+  ],
+  "保存文件": [
+    "src\\main\\utils\\main-dialog-text.ts:2"
+  ],
+  "保存文件失败：未知错误": [
+    "src\\main\\utils\\user-visible-messages.ts:224"
+  ],
+  "保持原图位置": [
+    "src\\renderer\\components\\config\\ImageReplaceConfig.vue:70"
+  ],
+  "保持原图尺寸": [
+    "src\\renderer\\components\\config\\ImageReplaceConfig.vue:69"
+  ],
+  "元数据无效": [
+    "src\\main\\utils\\error-codes.ts:197"
+  ],
+  "全词匹配": [
+    "src\\renderer\\components\\config\\TextReplaceConfig.vue:71"
+  ],
+  "内存": [
+    "src\\main\\utils\\error-handler.ts:379"
+  ],
+  "内存不足": [
+    "src\\main\\utils\\error-codes.ts:377",
+    "src\\main\\utils\\error-handler.ts:236",
+    "src\\main\\utils\\error-handler.ts:238"
+  ],
+  "准备中...": [
+    "src\\renderer\\components\\ProgressView.vue:190",
+    "src\\renderer\\components\\ProgressViewEnhanced.vue:164",
+    "src\\renderer\\components\\ProgressView.vue:195",
+    "src\\renderer\\components\\ProgressViewEnhanced.vue:165"
+  ],
+  "准备就绪，即将启动...": [
+    "src\\renderer\\components\\SplashScreen.vue:59"
+  ],
+  "删除不包含内容的幻灯片": [
+    "src\\renderer\\components\\TaskConfig.vue:386"
+  ],
+  "删除备份文件失败: ${backupInfo.backupPath}": [
+    "src\\main\\utils\\file-backup-manager.ts:194"
+  ],
+  "删除备注": [
+    "src\\renderer\\components\\TaskConfig.vue:391"
+  ],
+  "删除宏": [
+    "src\\renderer\\components\\TaskConfig.vue:401"
+  ],
+  "删除密码": [
+    "src\\renderer\\components\\TaskConfig.vue:508"
+  ],
+  "删除所有元数据保护隐私": [
+    "src\\renderer\\components\\TaskConfig.vue:497"
+  ],
+  "删除指定页码范围的页面": [
+    "src\\renderer\\components\\TaskConfig.vue:451"
+  ],
+  "删除换行": [
+    "src\\renderer\\components\\config\\TextReplaceConfig.vue:93",
+    "src\\renderer\\components\\pages\\TextReplacePage.vue:139"
+  ],
+  "删除数字": [
+    "src\\renderer\\components\\config\\TextReplaceConfig.vue:100",
+    "src\\renderer\\components\\pages\\TextReplacePage.vue:146"
+  ],
+  "删除日期时间": [
+    "src\\renderer\\components\\config\\ExtractionConfig.vue:113"
+  ],
+  "删除空格": [
+    "src\\renderer\\components\\config\\TextReplaceConfig.vue:92",
+    "src\\renderer\\components\\pages\\TextReplacePage.vue:138"
+  ],
+  "删除空白页": [
+    "src\\renderer\\components\\TaskConfig.vue:385"
+  ],
+  "删除背景": [
+    "src\\renderer\\components\\TaskConfig.vue:397"
+  ],
+  "删除背景图片": [
+    "src\\renderer\\components\\config\\ExtractionConfig.vue:103"
+  ],
+  "删除背景色": [
+    "src\\renderer\\components\\config\\ExtractionConfig.vue:104"
+  ],
+  "删除过期备份失败: ${filePath}": [
+    "src\\main\\utils\\file-backup-manager.ts:266"
+  ],
+  "删除页眉": [
+    "src\\renderer\\components\\config\\ExtractionConfig.vue:110"
+  ],
+  "删除页眉页脚": [
+    "src\\renderer\\components\\TaskConfig.vue:528"
+  ],
+  "删除页眉页脚、添加水印": [
+    "src\\renderer\\components\\HomePage.vue:188"
+  ],
+  "删除页码": [
+    "src\\renderer\\components\\config\\ExtractionConfig.vue:112"
+  ],
+  "删除页脚": [
+    "src\\renderer\\components\\config\\ExtractionConfig.vue:111"
+  ],
+  "删除页面": [
+    "src\\renderer\\components\\TaskConfig.vue:450"
+  ],
+  "删除页面、提取页面、替换插入": [
+    "src\\renderer\\components\\HomePage.vue:209"
+  ],
+  "加载图片预览失败:": [
+    "src\\renderer\\components\\tools\\ImageReplaceTools.vue:171"
+  ],
+  "区分大小写": [
+    "src\\renderer\\components\\config\\ExcelRulesConfig.vue:51",
+    "src\\renderer\\components\\config\\TextReplaceConfig.vue:70"
+  ],
+  "压缩图片减小文件大小": [
+    "src\\renderer\\components\\TaskConfig.vue:515"
+  ],
+  "发现新版本:": [
+    "src\\renderer\\components\\TitleBar.vue:261"
+  ],
+  "发生未知错误": [
+    "src\\main\\utils\\error-codes.ts:71"
+  ],
+  "取消": [
+    "src\\renderer\\components\\TitleBar.vue:472"
+  ],
+  "合并多个PPT文件": [
+    "src\\renderer\\components\\TaskConfig.vue:439"
+  ],
+  "合并拆分": [
+    "src\\renderer\\components\\HomePage.vue:201",
+    "src\\renderer\\components\\TaskConfig.vue:434",
+    "src\\renderer\\components\\TaskSelector.vue:61"
+  ],
+  "合并拆分类": [
+    "src\\shared\\constants\\index.ts:57"
+  ],
+  "合并的 ${actualInputFiles.length} 个文件": [
+    "src\\main\\ipc\\handlers.ts:535",
+    "src\\main\\ipc\\handlers.ts:555",
+    "src\\main\\ipc\\handlers.ts:546",
+    "src\\main\\ipc\\handlers.ts:568"
+  ],
+  "图片": [
+    "src\\renderer\\components\\config\\ExtractionConfig.vue:89"
+  ],
+  "图片不存在": [
+    "src\\main\\utils\\error-codes.ts:206"
+  ],
+  "图片格式不支持": [
+    "src\\main\\utils\\error-codes.ts:215"
+  ],
+  "图片转换": [
+    "src\\main\\services\\format-converter.ts:872"
+  ],
+  "图片转换失败: ${error.message}": [
+    "src\\main\\services\\format-converter.ts:574",
+    "src\\main\\services\\format-converter.ts:659",
+    "src\\main\\services\\format-converter.ts:993"
+  ],
+  "图片转换超时 (超过 ${this.timeout / 1000} 秒)": [
+    "src\\main\\services\\format-converter.ts:988"
+  ],
+  "处理失败": [
+    "src\\shared\\constants\\index.ts:50"
+  ],
+  "处理失败：": [
+    "src\\renderer\\components\\tools\\FileContentTools.vue:150"
+  ],
+  "处理完成": [
+    "src\\renderer\\components\\ProgressView.vue:183",
+    "src\\renderer\\components\\ProgressView.vue:188"
+  ],
+  "处理完成！": [
+    "src\\renderer\\components\\tools\\FileContentTools.vue:146"
+  ],
+  "处理时宏将被移除": [
+    "src\\main\\utils\\file-validator.ts:171"
+  ],
+  "备份失败": [
+    "src\\main\\utils\\error-codes.ts:404"
+  ],
+  "备份文件不存在: ${backupInfo.backupPath}": [
+    "src\\main\\utils\\file-backup-manager.ts:124"
+  ],
+  "备份文件失败: ${filePath}": [
+    "src\\main\\utils\\file-backup-manager.ts:100"
+  ],
+  "多页 PDF 转图片需要 Ghostscript": [
+    "src\\main\\utils\\error-codes.ts:324"
+  ],
+  "多页图片导出需要 ImageMagick，单页导出仍可使用": [
+    "src\\main\\utils\\error-codes.ts:315"
+  ],
+  "姓名,部门,日期,金额 张三,销售部,2024-01-01,10000 李四,技术部,2024-01-02,15000 王五,市场部,2024-01-03,12000": [
+    "src\\renderer\\components\\config\\TemplateGenerateConfig.vue:82"
+  ],
+  "姓名,部门,日期,金额\\n张三,销售部,2024-01-01,10000\\n李四,技术部,2024-01-02,15000\\n王五,市场部,2024-01-03,12000": [
+    "src\\renderer\\components\\pages\\TemplateGeneratePage.vue:161"
+  ],
+  "密码错误": [
+    "src\\main\\utils\\error-codes.ts:260"
+  ],
+  "密码错误或文件未加密": [
+    "src\\main\\utils\\user-visible-messages.ts:212"
+  ],
+  "导入Excel规则修改": [
+    "src\\renderer\\components\\TaskConfig.vue:365"
+  ],
+  "尝试使用备用方案：直接监听 window 事件...": [
+    "src\\renderer\\components\\TitleBar.vue:205"
+  ],
+  "峰值内存: ${MemoryMonitor.formatBytes(peakMemory.rss)}": [
+    "src\\main\\services\\format-converter.ts:813",
+    "src\\main\\services\\format-converter.ts:972"
+  ],
+  "已加载保存的用户信息": [
+    "src\\renderer\\components\\TitleBar.vue:124"
+  ],
+  "已完成": [
+    "src\\renderer\\components\\ProgressViewEnhanced.vue:164",
+    "src\\renderer\\components\\ProgressViewEnhanced.vue:165"
+  ],
+  "已是最新版本": [
+    "src\\main\\utils\\user-visible-messages.ts:232"
+  ],
+  "已是最新版本或检查失败": [
+    "src\\renderer\\components\\TitleBar.vue:264"
+  ],
+  "已有任务在运行": [
+    "src\\main\\utils\\error-codes.ts:350"
+  ],
+  "已选择": [
+    "src\\renderer\\components\\common\\FilePicker.vue:56"
+  ],
+  "幻灯片索引无效": [
+    "src\\main\\utils\\error-codes.ts:179"
+  ],
+  "应用Excel规则失败": [
+    "src\\main\\ipc\\handlers.ts:1771",
+    "src\\main\\ipc\\handlers.ts:1790"
+  ],
+  "应用到母版": [
+    "src\\renderer\\components\\config\\ExtractionConfig.vue:105"
+  ],
+  "应用已内置 LibreOffice，如出现此错误请联系技术支持": [
+    "src\\main\\utils\\error-codes.ts:279"
+  ],
+  "开始第一次登录检查...": [
+    "src\\renderer\\components\\TitleBar.vue:440"
+  ],
+  "开始获取用户信息...": [
+    "src\\renderer\\components\\TitleBar.vue:408"
+  ],
+  "开始轮询检查登录状态": [
+    "src\\renderer\\components\\TitleBar.vue:436"
+  ],
+  "当前 userInfo.value:": [
+    "src\\renderer\\components\\TitleBar.vue:406"
+  ],
+  "形状": [
+    "src\\renderer\\components\\config\\ExtractionConfig.vue:90"
+  ],
+  "忽略母版/背景中的元素": [
+    "src\\renderer\\components\\config\\ExtractionConfig.vue:95"
+  ],
+  "恢复文件失败: ${error instanceof Error ? error.message : String(error)}": [
+    "src\\main\\utils\\file-backup-manager.ts:141"
+  ],
+  "恢复的任务": [
+    "src\\renderer\\store\\app.ts:364",
+    "src\\renderer\\store\\app.ts:366"
+  ],
+  "恢复的文件校验和不匹配": [
+    "src\\main\\utils\\file-backup-manager.ts:138",
+    "src\\main\\utils\\user-visible-messages.ts:214"
+  ],
+  "所有配置已就绪，可以开始处理": [
+    "src\\renderer\\components\\pages\\ExcelRulesPage.vue:149"
+  ],
+  "打开广告链接:": [
+    "src\\renderer\\components\\TitleBar.vue:332"
+  ],
+  "批量下载功能开发中...": [
+    "src\\renderer\\components\\tools\\FileContentTools.vue:180"
+  ],
+  "批量修改作者、标题等属性": [
+    "src\\renderer\\components\\TaskConfig.vue:491"
+  ],
+  "批量处理任务": [
+    "src\\renderer\\store\\app.ts:214",
+    "src\\renderer\\store\\app.ts:216"
+  ],
+  "批量替换、字体调整、模板生成、图片替换": [
+    "src\\renderer\\components\\HomePage.vue:174"
+  ],
+  "批量替换或删除图片": [
+    "src\\renderer\\components\\TaskConfig.vue:379"
+  ],
+  "批量查找和替换文本内容": [
+    "src\\renderer\\components\\TaskConfig.vue:359"
+  ],
+  "批量添加文字或图片水印": [
+    "src\\renderer\\components\\TaskConfig.vue:427"
+  ],
+  "按指定页数拆分文件": [
+    "src\\renderer\\components\\TaskConfig.vue:438"
+  ],
+  "按规则修改内容": [
+    "src\\renderer\\components\\TaskConfig.vue:358"
+  ],
+  "损坏": [
+    "src\\main\\utils\\error-handler.ts:245",
+    "src\\main\\utils\\error-handler.ts:369"
+  ],
+  "接收到的数据:": [
+    "src\\renderer\\components\\TitleBar.vue:140"
+  ],
+  "提取图片": [
+    "src\\renderer\\components\\TaskConfig.vue:470"
+  ],
+  "提取图片、提取备注、批量导出": [
+    "src\\renderer\\components\\HomePage.vue:216"
+  ],
+  "提取备注": [
+    "src\\renderer\\components\\TaskConfig.vue:476"
+  ],
+  "提取备注内容到文本文件": [
+    "src\\renderer\\components\\TaskConfig.vue:477"
+  ],
+  "提取所有图片到文件夹": [
+    "src\\renderer\\components\\TaskConfig.vue:471"
+  ],
+  "提取指定页码范围的页面": [
+    "src\\renderer\\components\\TaskConfig.vue:457"
+  ],
+  "提取页面": [
+    "src\\renderer\\components\\TaskConfig.vue:456"
+  ],
+  "操作成功": [
+    "src\\main\\utils\\error-codes.ts:62"
+  ],
+  "支持的格式: ${VALID_EXTENSIONS.join(', ')}": [
+    "src\\main\\utils\\file-validator.ts:332"
+  ],
+  "收到 token:": [
+    "src\\renderer\\components\\TitleBar.vue:402"
+  ],
+  "收到用户信息:": [
+    "src\\renderer\\components\\TitleBar.vue:153"
+  ],
+  "数据提取": [
+    "src\\renderer\\components\\HomePage.vue:215",
+    "src\\renderer\\components\\TaskConfig.vue:464",
+    "src\\renderer\\components\\TaskSelector.vue:63"
+  ],
+  "数据提取类": [
+    "src\\shared\\constants\\index.ts:59"
+  ],
+  "数据源示例.csv": [
+    "src\\renderer\\components\\config\\TemplateGenerateConfig.vue:92",
+    "src\\renderer\\components\\pages\\TemplateGeneratePage.vue:169"
+  ],
+  "数据类型:": [
+    "src\\renderer\\components\\TitleBar.vue:140"
+  ],
+  "文件不存在": [
+    "src\\shared\\constants\\index.ts:41",
+    "src\\main\\utils\\error-codes.ts:80",
+    "src\\main\\utils\\file-validator.ts:99"
+  ],
+  "文件不存在或无法读取": [
+    "src\\main\\utils\\error-handler.ts:215"
+  ],
+  "文件为空": [
+    "src\\main\\utils\\file-validator.ts:302"
+  ],
+  "文件内容": [
+    "src\\renderer\\components\\HomePage.vue:173",
+    "src\\renderer\\components\\TaskConfig.vue:352",
+    "src\\renderer\\components\\TaskSelector.vue:57"
+  ],
+  "文件内容类": [
+    "src\\shared\\constants\\index.ts:52"
+  ],
+  "文件包含宏": [
+    "src\\main\\utils\\file-validator.ts:169"
+  ],
+  "文件可能过大，请尝试处理较小的文件": [
+    "src\\main\\utils\\error-codes.ts:288"
+  ],
+  "文件名模式包含非法字符: < > : \" | ? *": [
+    "src\\main\\utils\\user-visible-messages.ts:220"
+  ],
+  "文件名模式必须包含 {ext} 占位符以保留文件扩展名": [
+    "src\\main\\utils\\user-visible-messages.ts:218"
+  ],
+  "文件大小: ${MemoryMonitor.formatBytes(fileSize)},": [
+    "src\\main\\services\\format-converter.ts:969"
+  ],
+  "文件大小: ${this.formatSize(size)}, 最大允许: ${this.formatSize(maxSize)}": [
+    "src\\main\\utils\\file-validator.ts:317"
+  ],
+  "文件大小为 0 字节": [
+    "src\\main\\utils\\file-validator.ts:304"
+  ],
+  "文件大小超过限制": [
+    "src\\main\\utils\\error-codes.ts:107",
+    "src\\main\\utils\\file-validator.ts:311"
+  ],
+  "文件完整性检查失败": [
+    "src\\main\\utils\\file-validator.ts:405"
+  ],
+  "文件属性": [
+    "src\\renderer\\components\\HomePage.vue:222",
+    "src\\renderer\\components\\TaskConfig.vue:484",
+    "src\\renderer\\components\\TaskSelector.vue:64"
+  ],
+  "文件属性类": [
+    "src\\shared\\constants\\index.ts:60"
+  ],
+  "文件已加密": [
+    "src\\main\\utils\\error-codes.ts:143",
+    "src\\main\\utils\\file-validator.ts:156"
+  ],
+  "文件已存在": [
+    "src\\main\\utils\\error-codes.ts:134"
+  ],
+  "文件已损坏": [
+    "src\\shared\\constants\\index.ts:46",
+    "src\\main\\utils\\error-codes.ts:116"
+  ],
+  "文件损坏或格式无效": [
+    "src\\main\\utils\\error-handler.ts:247"
+  ],
+  "文件格式无效": [
+    "src\\main\\utils\\error-codes.ts:125",
+    "src\\main\\utils\\file-validator.ts:329"
+  ],
+  "文件水印": [
+    "src\\renderer\\components\\HomePage.vue:194",
+    "src\\renderer\\components\\TaskConfig.vue:420",
+    "src\\renderer\\components\\TaskSelector.vue:60"
+  ],
+  "文件水印类": [
+    "src\\shared\\constants\\index.ts:56"
+  ],
+  "文件没有幻灯片": [
+    "src\\main\\utils\\file-validator.ts:373"
+  ],
+  "文件被其他程序占用": [
+    "src\\main\\utils\\error-codes.ts:98",
+    "src\\main\\utils\\file-validator.ts:288"
+  ],
+  "文本内容": [
+    "src\\renderer\\components\\config\\ExtractionConfig.vue:88"
+  ],
+  "无效": [
+    "src\\main\\utils\\error-handler.ts:247"
+  ],
+  "无法创建临时文件: ${error instanceof Error ? error.message : String(error)}": [
+    "src\\main\\utils\\temp-file-manager.ts:63"
+  ],
+  "无法创建临时目录": [
+    "src\\main\\utils\\error-codes.ts:395"
+  ],
+  "无法创建临时目录: ${error instanceof Error ? error.message : String(error)}": [
+    "src\\main\\utils\\temp-file-manager.ts:35",
+    "src\\main\\utils\\temp-file-manager.ts:113"
+  ],
+  "无法创建备份目录: ${error instanceof Error ? error.message : String(error)}": [
+    "src\\main\\utils\\file-backup-manager.ts:37"
+  ],
+  "无法创建空临时文件: ${error instanceof Error ? error.message : String(error)}": [
+    "src\\main\\utils\\temp-file-manager.ts:87"
+  ],
+  "无法生成唯一文件名: ${outputPath}": [
+    "src\\main\\utils\\output-path-generator.ts:188"
+  ],
+  "无法生成唯一的备份文件名": [
+    "src\\main\\utils\\file-backup-manager.ts:347",
+    "src\\main\\utils\\user-visible-messages.ts:216"
+  ],
+  "无法读取": [
+    "src\\main\\utils\\error-handler.ts:214"
+  ],
+  "暂不": [
+    "src\\renderer\\components\\TitleBar.vue:286"
+  ],
+  "暂无广告": [
+    "src\\main\\utils\\user-visible-messages.ts:230"
+  ],
+  "更新内容：": [
+    "src\\renderer\\components\\TitleBar.vue:274"
+  ],
+  "替换图片": [
+    "src\\renderer\\components\\TaskConfig.vue:378"
+  ],
+  "替换备注内容": [
+    "src\\renderer\\components\\config\\ExcelRulesConfig.vue:52",
+    "src\\renderer\\components\\config\\TextReplaceConfig.vue:73"
+  ],
+  "替换表格内容": [
+    "src\\renderer\\components\\config\\ExcelRulesConfig.vue:53",
+    "src\\renderer\\components\\config\\TextReplaceConfig.vue:74"
+  ],
+  "服务暂时不可用": [
+    "src\\main\\utils\\error-codes.ts:422"
+  ],
+  "未找到 LibreOffice": [
+    "src\\main\\utils\\error-codes.ts:278"
+  ],
+  "未找到指定文本": [
+    "src\\main\\utils\\error-codes.ts:224"
+  ],
+  "未找到文件的备份记录: ${filePath}": [
+    "src\\main\\utils\\file-backup-manager.ts:120"
+  ],
+  "未生成图片文件": [
+    "src\\main\\utils\\user-visible-messages.ts:202"
+  ],
+  "未知文件": [
+    "src\\renderer\\components\\ProgressView.vue:209",
+    "src\\renderer\\components\\ProgressViewEnhanced.vue:234",
+    "src\\renderer\\components\\ProgressView.vue:214",
+    "src\\renderer\\components\\ProgressViewEnhanced.vue:190"
+  ],
+  "未知错误": [
+    "src\\renderer\\components\\TitleBar.vue:529",
+    "src\\main\\utils\\user-visible-messages.ts:234"
+  ],
+  "权限": [
+    "src\\main\\utils\\error-handler.ts:362"
+  ],
+  "权限不足": [
+    "src\\shared\\constants\\index.ts:48",
+    "src\\main\\utils\\error-handler.ts:221"
+  ],
+  "根据模板生成文档": [
+    "src\\renderer\\components\\TaskConfig.vue:371"
+  ],
+  "格式转换": [
+    "src\\renderer\\components\\HomePage.vue:180",
+    "src\\renderer\\components\\TaskConfig.vue:406",
+    "src\\renderer\\components\\TaskConfig.vue:412",
+    "src\\renderer\\components\\TaskSelector.vue:58"
+  ],
+  "格式转换失败": [
+    "src\\main\\utils\\error-codes.ts:305"
+  ],
+  "格式转换失败: ${error.message}": [
+    "src\\main\\services\\format-converter.ts:1120"
+  ],
+  "格式转换失败: 未生成输出文件": [
+    "src\\main\\services\\format-converter.ts:1107",
+    "src\\main\\utils\\user-visible-messages.ts:206"
+  ],
+  "格式转换类": [
+    "src\\shared\\constants\\index.ts:52"
+  ],
+  "格式转换超时 (超过 ${this.timeout / 1000} 秒)": [
+    "src\\main\\services\\format-converter.ts:1117"
+  ],
+  "检查更新失败:": [
+    "src\\renderer\\components\\TitleBar.vue:265"
+  ],
+  "模拟处理错误": [
+    "src\\renderer\\mock-electron-api.ts:66"
+  ],
+  "模板生成使用指南.txt": [
+    "src\\renderer\\components\\config\\TemplateGenerateConfig.vue:76"
+  ],
+  "模板解析失败": [
+    "src\\main\\utils\\error-codes.ts:233"
+  ],
+  "正在初始化处理引擎...": [
+    "src\\renderer\\components\\SplashScreen.vue:57"
+  ],
+  "正在加载核心组件...": [
+    "src\\renderer\\components\\SplashScreen.vue:56"
+  ],
+  "正在合并 PPT 文件...": [
+    "src\\main\\ipc\\handlers.ts:526",
+    "src\\main\\ipc\\handlers.ts:532"
+  ],
+  "正在处理...": [
+    "src\\main\\utils\\progress-tracker.ts:140",
+    "src\\main\\utils\\progress-tracker.ts:156"
+  ],
+  "正在处理: ${path.basename(inputPath)}": [
+    "src\\main\\ipc\\handlers.ts:306",
+    "src\\main\\ipc\\handlers.ts:310"
+  ],
+  "正在处理: {name} ({current}/{total})": [
+    "src\\renderer\\components\\tools\\FileContentTools.vue:118"
+  ],
+  "正在检查系统环境...": [
+    "src\\renderer\\components\\SplashScreen.vue:58"
+  ],
+  "正在获取登录地址...": [
+    "src\\renderer\\components\\TitleBar.vue:492"
+  ],
+  "此文件已加密，请提供正确的密码": [
+    "src\\main\\utils\\error-codes.ts:270"
+  ],
+  "水印操作失败": [
+    "src\\main\\utils\\error-codes.ts:251"
+  ],
+  "没有可下载的文件": [
+    "src\\renderer\\components\\tools\\FileContentTools.vue:178"
+  ],
+  "没有可用的日志文件": [
+    "src\\main\\utils\\user-visible-messages.ts:210"
+  ],
+  "没有文件访问权限": [
+    "src\\main\\utils\\error-codes.ts:89"
+  ],
+  "没有文件读取权限": [
+    "src\\main\\utils\\file-validator.ts:275"
+  ],
+  "没有目录访问权限": [
+    "src\\main\\utils\\error-codes.ts:161"
+  ],
+  "添加密码": [
+    "src\\renderer\\components\\TaskConfig.vue:502"
+  ],
+  "添加水印": [
+    "src\\renderer\\components\\TaskConfig.vue:426"
+  ],
+  "添加水印、页码编号、日期时间": [
+    "src\\renderer\\components\\HomePage.vue:195"
+  ],
+  "清理临时目录失败: ${this.tempDir}": [
+    "src\\main\\utils\\temp-file-manager.ts:181"
+  ],
+  "清理备份目录失败: ${this.backupDir}": [
+    "src\\main\\utils\\file-backup-manager.ts:232"
+  ],
+  "清空元数据": [
+    "src\\renderer\\components\\TaskConfig.vue:496"
+  ],
+  "清空所有幻灯片的备注": [
+    "src\\renderer\\components\\TaskConfig.vue:392"
+  ],
+  "用户信息已存在，跳过获取": [
+    "src\\renderer\\components\\TitleBar.vue:411"
+  ],
+  "用户取消更新": [
+    "src\\renderer\\components\\TitleBar.vue:302"
+  ],
+  "登录 URL:": [
+    "src\\renderer\\components\\TitleBar.vue:508"
+  ],
+  "登录地址:": [
+    "src\\renderer\\components\\TitleBar.vue:499"
+  ],
+  "登录失败": [
+    "src\\main\\utils\\error-codes.ts:431"
+  ],
+  "登录已过期": [
+    "src\\main\\utils\\error-codes.ts:440"
+  ],
+  "登录成功后，浏览器会自动跳转并同步登录状态": [
+    "src\\renderer\\components\\TitleBar.vue:522"
+  ],
+  "目录不存在": [
+    "src\\main\\utils\\error-codes.ts:152"
+  ],
+  "确认退出": [
+    "src\\renderer\\components\\TitleBar.vue:468"
+  ],
+  "磁盘空间": [
+    "src\\main\\utils\\error-handler.ts:376"
+  ],
+  "磁盘空间不足": [
+    "src\\shared\\constants\\index.ts:47",
+    "src\\main\\utils\\error-codes.ts:386",
+    "src\\main\\utils\\error-handler.ts:229",
+    "src\\main\\utils\\error-handler.ts:230"
+  ],
+  "磁盘空间不足，无法保存文件\\n请清理磁盘空间后重试": [
+    "src\\main\\utils\\user-visible-messages.ts:222"
+  ],
+  "移除VBA宏代码": [
+    "src\\renderer\\components\\TaskConfig.vue:401"
+  ],
+  "移除密码保护": [
+    "src\\renderer\\components\\TaskConfig.vue:509"
+  ],
+  "移除幻灯片背景": [
+    "src\\renderer\\components\\TaskConfig.vue:398"
+  ],
+  "移除页眉页脚内容": [
+    "src\\renderer\\components\\TaskConfig.vue:529"
+  ],
+  "稍后提醒": [
+    "src\\renderer\\components\\TitleBar.vue:286"
+  ],
+  "立即更新": [
+    "src\\renderer\\components\\TitleBar.vue:283"
+  ],
+  "类型,查找内容,替换内容 文本替换,旧文本,新文本 文本替换,Hello,你好 删除内容,要删除的内容, 文本替换,2024,2025": [
+    "src\\renderer\\components\\config\\ExcelRulesConfig.vue:71"
+  ],
+  "类型,查找内容,替换内容\\n文本替换,旧文本,新文本\\n文本替换,Hello,你好\\n删除内容,要删除的内容,\\n文本替换,2024,2025": [
+    "src\\renderer\\components\\pages\\ExcelRulesPage.vue:121"
+  ],
+  "约{hours}小时{minutes}分钟": [
+    "src\\renderer\\store\\app.ts:160",
+    "src\\renderer\\store\\app.ts:162"
+  ],
+  "约{minutes}分钟": [
+    "src\\renderer\\store\\app.ts:165",
+    "src\\renderer\\store\\app.ts:167"
+  ],
+  "约{seconds}秒": [
+    "src\\renderer\\store\\app.ts:167",
+    "src\\renderer\\store\\app.ts:169"
+  ],
+  "统一日期": [
+    "src\\renderer\\components\\config\\TextReplaceConfig.vue:95",
+    "src\\renderer\\components\\pages\\TextReplacePage.vue:141"
+  ],
+  "编辑元数据": [
+    "src\\renderer\\components\\TaskConfig.vue:490"
+  ],
+  "编辑元数据、密码保护、批量重命名": [
+    "src\\renderer\\components\\HomePage.vue:223"
+  ],
+  "缺少 [Content_Types].xml": [
+    "src\\main\\utils\\file-validator.ts:361"
+  ],
+  "缺少 presentation.xml": [
+    "src\\main\\utils\\file-validator.ts:387"
+  ],
+  "网络连接异常": [
+    "src\\renderer\\components\\HomePage.vue:267",
+    "src\\renderer\\components\\HomePage.vue:305"
+  ],
+  "网络错误": [
+    "src\\main\\utils\\error-codes.ts:413"
+  ],
+  "获取反馈链接失败: {message}": [
+    "src\\renderer\\components\\HomePage.vue:267"
+  ],
+  "获取反馈链接失败，请稍后重试": [
+    "src\\renderer\\components\\HomePage.vue:261"
+  ],
+  "获取定制链接失败: {message}": [
+    "src\\renderer\\components\\HomePage.vue:305"
+  ],
+  "获取定制链接失败，请稍后重试": [
+    "src\\renderer\\components\\HomePage.vue:299"
+  ],
+  "获取用户信息失败": [
+    "src\\main\\utils\\user-visible-messages.ts:228"
+  ],
+  "获取登录地址失败": [
+    "src\\main\\utils\\user-visible-messages.ts:226"
+  ],
+  "获取登录地址失败: {error}": [
+    "src\\renderer\\components\\TitleBar.vue:530"
+  ],
+  "规则应用失败: ${result.error || '应用Excel规则失败'}": [
+    "src\\main\\ipc\\handlers.ts:1788"
+  ],
+  "警告: 图片转换内存使用过高。": [
+    "src\\main\\services\\format-converter.ts:968"
+  ],
+  "计算中...": [
+    "src\\renderer\\components\\ProgressViewEnhanced.vue:204",
+    "src\\renderer\\components\\ProgressViewEnhanced.vue:175"
+  ],
+  "计算校验和失败: ${error instanceof Error ? error.message : String(error)}": [
+    "src\\main\\utils\\file-backup-manager.ts:381"
+  ],
+  "设置已重置": [
+    "src\\renderer\\components\\tools\\FileContentTools.vue:164"
+  ],
+  "设置打开密码和修改密码": [
+    "src\\renderer\\components\\TaskConfig.vue:503"
+  ],
+  "请使用 PNG、JPG、GIF 或 BMP 格式的图片": [
+    "src\\main\\utils\\error-codes.ts:216"
+  ],
+  "请使用正确的格式，如 \"1-3,5,7-9\"": [
+    "src\\main\\utils\\error-codes.ts:189"
+  ],
+  "请先上传文件": [
+    "src\\renderer\\components\\tools\\FileContentTools.vue:104"
+  ],
+  "请先使用\"移除密码\"功能解密文件": [
+    "src\\main\\utils\\error-codes.ts:144"
+  ],
+  "请先在下方选择PPT文件": [
+    "src\\renderer\\components\\pages\\ExcelRulesPage.vue:145"
+  ],
+  "请先选择Excel规则文件": [
+    "src\\renderer\\components\\pages\\ExcelRulesPage.vue:146"
+  ],
+  "请先选择输出目录": [
+    "src\\renderer\\components\\pages\\ExcelRulesPage.vue:148"
+  ],
+  "请关闭 PowerPoint 或其他正在使用该文件的程序": [
+    "src\\main\\utils\\file-validator.ts:290"
+  ],
+  "请关闭其他应用程序后重试，或处理较小的文件": [
+    "src\\main\\utils\\error-codes.ts:378"
+  ],
+  "请关闭正在使用该文件的程序（如 PowerPoint），然后重试": [
+    "src\\main\\utils\\error-codes.ts:99"
+  ],
+  "请尝试使用 PowerPoint 的修复功能打开文件，或从备份恢复": [
+    "src\\main\\utils\\error-codes.ts:117"
+  ],
+  "请尝试压缩文件或分批处理": [
+    "src\\main\\utils\\error-codes.ts:108"
+  ],
+  "请尝试处理较少的文件，或检查是否有大文件": [
+    "src\\main\\utils\\error-codes.ts:342"
+  ],
+  "请尝试用 PowerPoint 重新保存文件": [
+    "src\\main\\utils\\error-codes.ts:171"
+  ],
+  "请检查元数据字段格式": [
+    "src\\main\\utils\\error-codes.ts:198"
+  ],
+  "请检查图片路径是否正确": [
+    "src\\main\\utils\\error-codes.ts:207"
+  ],
+  "请检查备份目录权限": [
+    "src\\main\\utils\\error-codes.ts:405"
+  ],
+  "请检查搜索文本是否正确，或尝试启用\"忽略大小写\"选项": [
+    "src\\main\\utils\\error-codes.ts:225"
+  ],
+  "请检查文件是否损坏，或尝试其他格式": [
+    "src\\main\\utils\\error-codes.ts:306"
+  ],
+  "请检查文件权限，或以管理员身份运行程序": [
+    "src\\main\\utils\\error-codes.ts:90"
+  ],
+  "请检查文件路径是否正确，文件是否已被移动或删除": [
+    "src\\main\\utils\\error-codes.ts:81"
+  ],
+  "请检查模板文件和数据源格式是否匹配": [
+    "src\\main\\utils\\error-codes.ts:234"
+  ],
+  "请检查水印图片是否存在，或减少水印透明度": [
+    "src\\main\\utils\\error-codes.ts:252"
+  ],
+  "请检查目录权限，或选择其他输出位置": [
+    "src\\main\\utils\\error-codes.ts:162"
+  ],
+  "请检查目录路径是否正确": [
+    "src\\main\\utils\\error-codes.ts:153"
+  ],
+  "请检查磁盘权限和空间": [
+    "src\\main\\utils\\error-codes.ts:396"
+  ],
+  "请检查网络连接后重试": [
+    "src\\main\\utils\\error-codes.ts:414"
+  ],
+  "请检查配置后重试": [
+    "src\\renderer\\store\\app.ts:301",
+    "src\\renderer\\store\\app.ts:303"
+  ],
+  "请检查页码范围是否正确": [
+    "src\\main\\utils\\error-codes.ts:180"
+  ],
+  "请清理磁盘空间后重试": [
+    "src\\main\\utils\\error-codes.ts:387"
+  ],
+  "请确保 Excel 文件格式正确，包含必需的列（类型、查找内容、替换内容）": [
+    "src\\main\\utils\\error-codes.ts:243"
+  ],
+  "请确保文件是有效的 PPTX 格式": [
+    "src\\main\\utils\\error-codes.ts:126"
+  ],
+  "请稍后重试": [
+    "src\\main\\utils\\error-codes.ts:423"
+  ],
+  "请等待当前任务完成后再添加新任务": [
+    "src\\main\\utils\\error-codes.ts:369"
+  ],
+  "请等待当前任务完成，或取消当前任务": [
+    "src\\main\\utils\\error-codes.ts:351"
+  ],
+  "请输入替换后的内容": [
+    "src\\renderer\\components\\tools\\FileContentTools.vue:99"
+  ],
+  "请输入正确的密码": [
+    "src\\main\\utils\\error-codes.ts:261"
+  ],
+  "请输入要查找的内容": [
+    "src\\renderer\\components\\tools\\FileContentTools.vue:94"
+  ],
+  "请选择不同的输出路径，或启用覆盖选项": [
+    "src\\main\\utils\\error-codes.ts:135"
+  ],
+  "请重新登录": [
+    "src\\main\\utils\\error-codes.ts:432",
+    "src\\main\\utils\\error-codes.ts:441"
+  ],
+  "请重试操作，如果问题持续存在，请联系技术支持": [
+    "src\\main\\utils\\error-codes.ts:72",
+    "src\\main\\utils\\error-codes.ts:297"
+  ],
+  "调用 get-adv 接口...": [
+    "src\\renderer\\components\\TitleBar.vue:311"
+  ],
+  "调用 invoke 方法...": [
+    "src\\renderer\\components\\TitleBar.vue:493"
+  ],
+  "超时时间必须大于 0": [
+    "src\\main\\services\\format-converter.ts:1125",
+    "src\\main\\utils\\user-visible-messages.ts:208"
+  ],
+  "路径: ${filePath}": [
+    "src\\main\\utils\\file-validator.ts:102",
+    "src\\main\\utils\\file-validator.ts:278"
+  ],
+  "跳过隐藏幻灯片": [
+    "src\\renderer\\components\\config\\ExcelRulesConfig.vue:54",
+    "src\\renderer\\components\\config\\TextReplaceConfig.vue:75"
+  ],
+  "转换为PDF、图片等格式": [
+    "src\\renderer\\components\\TaskConfig.vue:413"
+  ],
+  "软件更新": [
+    "src\\renderer\\components\\TitleBar.vue:295"
+  ],
+  "输入文件不存在: ${inputPath}": [
+    "src\\main\\services\\format-converter.ts:673",
+    "src\\main\\services\\format-converter.ts:858"
+  ],
+  "退出登录": [
+    "src\\renderer\\components\\TitleBar.vue:467"
+  ],
+  "选择": [
+    "src\\renderer\\components\\common\\FilePicker.vue:55"
+  ],
+  "选择保存目录": [
+    "src\\main\\utils\\main-dialog-text.ts:3"
+  ],
+  "选择图片失败": [
+    "src\\renderer\\components\\tools\\ImageReplaceTools.vue:156"
+  ],
+  "选择文件...": [
+    "src\\renderer\\components\\common\\FilePicker.vue:54"
+  ],
+  "选择文件失败: {error}": [
+    "src\\renderer\\components\\FileSelector.vue:169"
+  ],
+  "配置对象包含无法序列化的数据: {error}": [
+    "src\\renderer\\store\\app.ts:287",
+    "src\\renderer\\store\\app.ts:289"
+  ],
+  "需求已提交！我们的团队会尽快与您联系。": [
+    "src\\renderer\\components\\HomePage.vue:311"
+  ],
+  "需要密码": [
+    "src\\main\\utils\\error-codes.ts:269"
+  ],
+  "需要密码才能处理此文件": [
+    "src\\main\\utils\\file-validator.ts:158"
+  ],
+  "页眉页脚": [
+    "src\\renderer\\components\\HomePage.vue:187",
+    "src\\renderer\\components\\TaskConfig.vue:522",
+    "src\\renderer\\components\\TaskSelector.vue:59"
+  ],
+  "页眉页脚类": [
+    "src\\shared\\constants\\index.ts:56"
+  ],
+  "页码范围无效": [
+    "src\\main\\utils\\error-codes.ts:188"
+  ],
+  "页面处理": [
+    "src\\renderer\\components\\HomePage.vue:208",
+    "src\\renderer\\components\\TaskConfig.vue:444",
+    "src\\renderer\\components\\TaskSelector.vue:62"
+  ],
+  "页面处理类": [
+    "src\\shared\\constants\\index.ts:58"
+  ],
+  "验证过程中发生错误": [
+    "src\\main\\utils\\file-validator.ts:197"
+  ],
+  "📞 后端未提供用户信息，前端自己获取...": [
+    "src\\renderer\\components\\TitleBar.vue:181"
+  ],
+  "📡 get-user-info 返回结果:": [
+    "src\\renderer\\components\\TitleBar.vue:365"
+  ],
+  "🔔 收到 window 消息事件:": [
+    "src\\renderer\\components\\TitleBar.vue:208"
+  ],
+  "🔧 正在设置登录成功事件监听器...": [
+    "src\\renderer\\components\\TitleBar.vue:127"
+  ],
+  "🧪 测试：手动触发登录成功": [
+    "src\\renderer\\components\\TitleBar.vue:220"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "legacy.pages.textReplace.description": ["src/renderer/components/pages/TextReplacePage.vue:4"],
+  "legacy.pages.textReplace.hint": ["src/renderer/components/pages/TextReplacePage.vue:7"],
+  "legacy.pages.textReplace.regexExamples": [
+    "src/renderer/components/pages/TextReplacePage.vue:79"
+  ],
+  "legacy.pages.textReplace.matchNumbers": ["src/renderer/components/pages/TextReplacePage.vue:81"],
+  "legacy.pages.textReplace.matchUppercase": [
+    "src/renderer/components/pages/TextReplacePage.vue:82"
+  ],
+  "legacy.pages.textReplace.matchEmail": ["src/renderer/components/pages/TextReplacePage.vue:83"],
+  "legacy.pages.watermark.description": ["src/renderer/components/pages/WatermarkPage.vue:4"],
+  "legacy.pages.watermark.hint": ["src/renderer/components/pages/WatermarkPage.vue:7"],
+  "legacy.pages.split.description": ["src/renderer/components/pages/SplitPptPage.vue:4"],
+  "legacy.pages.split.hint": ["src/renderer/components/pages/SplitPptPage.vue:7"],
+  "legacy.pages.split.detail": ["src/renderer/components/pages/SplitPptPage.vue:15"],
+  "legacy.pages.split.pagesPerFileHint": ["src/renderer/components/pages/SplitPptPage.vue:35"],
+  "legacy.pages.split.fileCountHint": ["src/renderer/components/pages/SplitPptPage.vue:47"],
+  "legacy.pages.split.namingNumber": ["src/renderer/components/pages/SplitPptPage.vue:53"],
+  "legacy.pages.split.namingRange": ["src/renderer/components/pages/SplitPptPage.vue:54"],
+  "legacy.pages.split.customPrefixHint": ["src/renderer/components/pages/SplitPptPage.vue:67"],
+  "legacy.pages.split.examples": ["src/renderer/components/pages/SplitPptPage.vue:71"],
+  "legacy.pages.split.exampleOriginal": ["src/renderer/components/pages/SplitPptPage.vue:72"],
+  "legacy.pages.split.exampleByPages": ["src/renderer/components/pages/SplitPptPage.vue:73"],
+  "legacy.pages.split.exampleNumber": ["src/renderer/components/pages/SplitPptPage.vue:74"],
+  "legacy.pages.merge.description": ["src/renderer/components/pages/MergePptPage.vue:4"],
+  "legacy.pages.merge.hint": ["src/renderer/components/pages/MergePptPage.vue:7"],
+  "legacy.pages.merge.detail": ["src/renderer/components/pages/MergePptPage.vue:15"],
+  "legacy.pages.merge.separatorHint": ["src/renderer/components/pages/MergePptPage.vue:42"],
+  "legacy.pages.merge.notice": ["src/renderer/components/pages/MergePptPage.vue:46"],
+  "legacy.pages.merge.noticeDetail": ["src/renderer/components/pages/MergePptPage.vue:47"],
+  "legacy.pages.formatConvert.description": [
+    "src/renderer/components/pages/FormatConvertPage.vue:4"
+  ],
+  "legacy.pages.formatConvert.hint": ["src/renderer/components/pages/FormatConvertPage.vue:7"],
+  "legacy.pages.formatConvert.pdfFeatures": [
+    "src/renderer/components/pages/FormatConvertPage.vue:54"
+  ],
+  "legacy.pages.formatConvert.pdfFeaturePrint": [
+    "src/renderer/components/pages/FormatConvertPage.vue:56"
+  ],
+  "legacy.pages.formatConvert.pdfFeatureLayout": [
+    "src/renderer/components/pages/FormatConvertPage.vue:57"
+  ],
+  "legacy.pages.formatConvert.pdfFeatureSize": [
+    "src/renderer/components/pages/FormatConvertPage.vue:58"
+  ],
+  "legacy.pages.formatConvert.pngFeatures": [
+    "src/renderer/components/pages/FormatConvertPage.vue:63"
+  ],
+  "legacy.pages.formatConvert.pngFeatureLossless": [
+    "src/renderer/components/pages/FormatConvertPage.vue:65"
+  ],
+  "legacy.pages.formatConvert.pngFeatureTransparent": [
+    "src/renderer/components/pages/FormatConvertPage.vue:66"
+  ],
+  "legacy.pages.formatConvert.pngFeaturePerSlide": [
+    "src/renderer/components/pages/FormatConvertPage.vue:67"
+  ]
+}

@@ -1,0 +1,31 @@
+appId: com.pptbatchprocessor.10036
+productName: PPT批量处理工具箱
+copyright: Copyright © 2024
+directories:
+  output: release-mac
+files:
+  - dist/**/*
+  - dist-electron/**/*
+  - node_modules/**/*
+  - package.json
+  - '!**/.vscode/*'
+  - '!src/*'
+  - '!electron.vite.config.{js,ts,mjs,cjs}'
+  - '!{.eslintignore,.eslintrc.cjs,.prettierignore,.prettierrc.yaml,dev-app-update.yml,CHANGELOG.md}'
+  - '!{.env,.env.*,.npmrc,pnpm-lock.yaml}'
+extraResources:
+  - from: src/renderer/assets/icon.png
+    to: app-icon.png
+mac:
+  category: public.app-category.productivity
+  target:
+    - target: dmg
+      arch:
+        - x64
+        - arm64
+    - target: zip
+      arch:
+        - x64
+        - arm64
+  artifactName: ${productName}-${version}-${arch}.${ext}
+  identity: null

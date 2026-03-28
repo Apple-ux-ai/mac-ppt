@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  font-family: 'Microsoft YaHei', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* 确保 Element Plus 的消息提示在最顶层 */
+.el-message {
+  z-index: 99999 !important;
+  min-width: 380px !important;
+}
+
+.el-message-box {
+  z-index: 99999 !important;
+}
+
+.el-notification {
+  z-index: 99999 !important;
+}
+
+.el-dialog {
+  z-index: 99998 !important;
+}
+
+.el-overlay {
+  z-index: 99997 !important;
+}
+
+/* 全局复选框左对齐样式 */
+.el-checkbox-group {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  align-items: flex-start !important;
+}
+
+.el-checkbox-group.checkbox-grid {
+  display: flex !important;
+  flex-direction: column !important;
+  grid-template-columns: none !important;
+  gap: 12px !important;
+}
+
+.el-checkbox-group.checkbox-horizontal {
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 16px 24px !important;
+}
+
+.el-checkbox {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.el-checkbox__input {
+  margin: 0 8px 0 0 !important;
+  padding: 0 !important;
+}
+
+.el-checkbox__label {
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 1.5 !important;
+}
+
+.el-collapse-item__content {
+  padding-left: 0 !important;
+}
+
+.el-space {
+  width: 100% !important;
+}
+
+.el-space.el-space--vertical {
+  align-items: flex-start !important;
+}
+
+.el-space .el-checkbox {
+  margin: 0 !important;
+}
